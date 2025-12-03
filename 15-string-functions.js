@@ -27,3 +27,23 @@ console.log(email.includes("somewhere.com")); // return true / false
 console.log(email.indexOf("@")); // return the index of the specified substring
                                  // will return -1 if not found
 
+
+/*
+Use prompt sync to ask for a filename.
+Eg: report.doc, image.png
+
+BASIC TASK
+1. find the file extension of the file (report.doc => doc)
+2. tell the user if the file is a document or an image
+   document: xls, doc
+   images: png, bmp, jpg
+
+INTERIMEDIATE TASK
+1. Support .xslx for doc, and .jpeg for images
+2. must support both uppercase and lowercase
+   ex: report.DOC and report.doc is actually the same
+
+EXPERT TASK
+1. Support multiple dot in the file name
+Example: reporta.reportb.doc
+*/
