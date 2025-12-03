@@ -46,4 +46,14 @@ INTERIMEDIATE TASK
 EXPERT TASK
 1. Support multiple dot in the file name
 Example: reporta.reportb.doc
+
+ULTIMATE
+Only use a FOR loop and indexing each character
+- string concatation (combine two strings)
+
 */
+
+let a = "the quick brown fox";
+for (let i  =0; i < a.length; i++) {
+    console.log(a[i]);
+}
